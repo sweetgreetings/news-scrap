@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+
+# 실행 중 생성되는 데이터/화면 파일 (소스 코드가 아님)
+data/
+*.log
+/index.html
+/history.html
+/home.html
+
+# 개발 중 임시로 옮겨둔 파일(사용자 검토 후 직접 삭제하는 폴더)
+trash-can/
+
+# 로컬 개발 도구(Claude Code, bkit 플러그인) 상태 — 앱 소스 코드가 아님
+.DS_Store
+.claude/
+.bkit/
